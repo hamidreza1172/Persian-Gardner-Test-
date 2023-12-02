@@ -47,7 +47,9 @@ document
   .getElementById("examForm")
   .addEventListener("submit", function (event) {
     event.preventDefault();
-
+if (i < question_id.length) {
+  
+//لیست جوابهای موجود
     let option_text_array = [
       "به هیچ وجه شبیه من نیست",
       " اندکی شبیه من است",
@@ -60,32 +62,34 @@ document
     questions.forEach((question) => {
       if (question.checked) {
         document.querySelector(".errortext").innerText = "";
+        //اضافه کردن امنتیازات به متغیر score در هر سوال 
         if (question.value === option_text_array[0]) {
-          question_id[i].score=1;
+          question_id[i].score = 1;
         } else if (question.value === option_text_array[1]) {
-         question_id[i].score=2;
+          question_id[i].score = 2;
         } else if (question.value === option_text_array[2]) {
-         question_id[i].score=3;
+          question_id[i].score = 3;
         } else if (question.value === option_text_array[3]) {
-         question_id[i].score=4;
+          question_id[i].score = 4;
         } else if (question.value === option_text_array[4]) {
-         question_id[i].score=5;
+          question_id[i].score = 5;
         }
-          console.log(`score is ${question_id[i].score}`);
+
+        console.log(`score is ${question_id[i].score}`);
         // بررسی جواب‌ها و اعمال عملیات مناسب
         // مثال: نمایش امتیاز برای جواب
 
         document.querySelector(".textquestion").innerHTML =
           question_id[(i += 1)].ques;
-      } 
+      }
     });
-    //     }} else {
-    //       var question1 = document.querySelector(".question1");
-    //       document.querySelector("#examForm").removeChild(question1);
-    //       const endtest = document.createElement("h1")
-    //       endtest.innerText="آزمون تمام شد   تشکر از شما"
-    //       endtest.classList.add("endtest");
-    //       document.querySelector("#examForm").appendChild(endtest)
-    //     }
-    //   }
+  }else{
+    var question1 = document.querySelector(".question1");
+        document.querySelector("#examForm").removeChild(question1);
+        const endtest = document.createElement("h1")
+              endtest.innerText="آزمون تمام شد   تشکر از شما"
+              endtest.classList.add("endtest");
+              document.querySelector("#examForm").appendChild(endtest)
+            
+  }
   });
