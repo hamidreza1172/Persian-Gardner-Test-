@@ -1,60 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@300;400&display=swap");
+
+@font-face {
+  font-family: Vazir;
+  src: url("Vazir-Regular.eot");
+  src: url("Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Regular.woff2") format("woff2"),
+    url("Vazir-Regular.woff") format("woff"),
+    url("Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    direction: rtl;
-    text-align: right;
+  /* font-family: Arial, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.6;
+  direction: rtl;
+  text-align: right;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
-
+.question1 {
+  margin: auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  line-height: 1;
+  font-size: 1.5rem;
+}
 form {
-    display: grid;
-    gap: 10px;
+  display: grid;
+  gap: 10px;
 }
 
 .question {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.textquestion {
+  color: #ff5577;
+  font-weight: bolder;
+  margin: 45px 0px;
+}
+.errortext {
+  margin-bottom: 35px;
 }
 
 button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    width:30%
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 25%;
 }
 
 button:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 footer {
-    position:fixed;
-    bottom:0;
-    width:100%;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
-.errortext{
-    color:red;
-    font-weight:bold;
+.errortext {
+  color: red;
+  font-weight: bold;
 }
-.endtest{
-    color:red;
+.endtest {
+  color: red;
 }
