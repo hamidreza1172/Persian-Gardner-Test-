@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/8.jpg">
+    <link rel="stylesheet" href="./loginStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>پاسخ آزمون</title>
+</head>
+<body>
+    <div class="container">
+      
+<div class="profile mt-5 border-1">
+    <div class="row my-3">
+        <h5 class="text-center fw-bolder">پاسخ آزمون</h5>
+        <div class="d-flex mx-3">
+            <p class="ms-4">نام دانش آموز :</p>
+            <p class=" name ms-4 "></p>
+        </div>
+        <div class="d-flex mx-3">
+            <p class="ms-4">شناسه:</p>
+            <p class=" idname ms-4 "></p>
+        </div>
+    </div>
+</div>
+
+        <div class="p-3 mt-4 answer-test">
+            <table class="table  rounded-3">
+                <tbody class="rounded-3">
+                    <tr class="text-center ">
+                       <td class="py-4 bg-info border-1">هوش منطقی ریاضی</td>
+                       <td class="py-4 bg-info border-1">هوش درون فردی</td>
+                       <td class="py-4 bg-info border-1">هوش موسیقیایی</td>
+                       <td class="py-4 bg-info border-1">هوش طبیعت گرا</td>
+                       <td class="py-4 bg-info border-1">هوش بدنی جنبشی</td>
+                       <td class="py-4 bg-info border-1">هوش تجسمی</td>
+                       <td class="py-4 bg-info border-1">هوش کلامی/زبانی</td>
+                       <td class="py-4 bg-info border-1">هوش بین فردی</td>
+                       <td class="py-4 bg-info border-1 fw-bolder">نوع هوش</td>
+                    </tr>
+                       <tr>
+                       <td class="border-1 text-center tsms"></td>
+                       <td class="border-1 text-center tsin"></td>
+                       <td class="border-1 text-center tsmu"></td>
+                       <td class="border-1 text-center tsna"></td>
+                       <td class="border-1 text-center tsphi"></td>
+                       <td class="border-1 text-center tsvi"></td>
+                       <td class="border-1 text-center tsver"></td>
+                       <td class="border-1 text-center tsinbet"></td>
+                       <td class="fw-bolder text-center border-1">نمره از 50</td>
+                       </tr>
+               </tbody>
+           </table>
+        </div>
+        <div class="w-75 d-flex justify-content-center align-items-center m-5">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="resul.js"></script>

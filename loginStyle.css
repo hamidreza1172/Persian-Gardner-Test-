@@ -1,19 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@300;400&display=swap");
 
-
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    direction:rtl;
-    font-family: "Roboto", sans-serif;
-    font-family: "Roboto Slab", serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
-.myForm{
-border:1px solid #e3e3e3;
-padding:30px;
-border-radius:7px;
-box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+.myForm {
+  
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
+.answer-test {
+  border: 1px solid #e3e3e3;
+  width: 100%;
+  border-radius: 15px;
+}
+.table {
+  width: 80%;
+}
+.profile {
+  border: 1px solid #e3e3e3;
+}
+
+

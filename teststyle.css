@@ -1,28 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@300;400&display=swap");
 
-@font-face {
-  font-family: Vazir;
-  src: url("Vazir-Regular.eot");
-  src: url("Vazir-Regular.eot?#iefix") format("embedded-opentype"),
-    url("Vazir-Regular.woff2") format("woff2"),
-    url("Vazir-Regular.woff") format("woff"),
-    url("Vazir-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+
+@-webkit-keyframes flip-scale-up-hor {
+  0% {
+    -webkit-transform: scale(1) rotateX(0);
+            transform: scale(1) rotateX(0);
+  }
+  50% {
+    -webkit-transform: scale(2.5) rotateX(-90deg);
+            transform: scale(2.5) rotateX(-90deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateX(0);
+            transform: scale(1) rotateX(0);
+  }
 }
 
+
 body {
-  /* font-family: Arial, sans-serif; */
+  background:#f29fcb;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
-  line-height: 1.6;
   direction: rtl;
   text-align: right;
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: #550040;
   padding: 10px;
   text-align: center;
 }
@@ -36,8 +40,7 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  line-height: 1;
-  font-size: 1.5rem;
+  
 }
 form {
   display: grid;
@@ -58,29 +61,18 @@ form {
   margin-bottom: 35px;
 }
 
-button {
-  background-color: green;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 15px;
-  width: 25%;
-}
+
 
 button:hover {
-  background-color: #555;
+  background-color: #552280;
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #550040;
   color: white;
-  padding: 10px;
   text-align: center;
 }
 .errortext {
@@ -89,4 +81,21 @@ footer {
 }
 .endtest {
   color: red;
+}
+.showresult{
+  text-decoration:none;
+  margin:20px 50px;
+  backgraound:red;
+  color:#000;
+}
+.parentshow{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.img-test-1{
+  width:35%;
+ object-fit:cover;
+ animation: flip-scale-up-hor 0.5s linear both;
 }

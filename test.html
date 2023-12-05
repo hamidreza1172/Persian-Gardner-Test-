@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/8.jpg">
     <link rel="stylesheet" href="./teststyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>آزمون گاردنر</title>
 </head>
 <body>
-    <header>
-        <h1>آزمون گاردنر</h1>
+    <header >
+        <p class="h4 text-white">gardner test</p>
     </header>
     <main>
-        <form id="examForm">
-            <div class="question1">
-                <p class="textquestion"></p>
+        <form id="examForm" class="d-flex justify-content-around ">
+            <div class=" col-7 question1 bg-body-secondary">
+                <p class="textquestion h3 my-5"></p>
                 <label>
                     <input type="radio" name="question" value="به هیچ وجه شبیه من نیست" class="question">
                     "به هیچ وجه شبیه من نیست"
@@ -35,17 +37,18 @@
                 </label>
                 <br>
                 <label>
-                    <input type="radio" name="question " value= "کاملا شبیه من است" class="question">
+                    <input type="radio" name="question" value= "کاملا شبیه من است" class="question">
                     "کاملا شبیه من است"
                 </label>
-                <p class="errortext"></p>
-                <button type="submit">ثبت نظرات</button>
+                
+                <button type="submit" class="btn btn-success rounded-2 my-3" role="button">ثبت گزینه مورد نظر </button>
             </div>
             <!-- ... -->
+            <img src="./images/8.jpg" alt="" class=" col-3 img-test-1 mt-5 rounded-circle ">
         </form>
     </main>
     <footer>
-        <p>&copy; 2023- آزمون گاردنر</p>
+        <p>&copy; 2023</p>
     </footer>
     <script src="app.js"></script>
 </body>
