@@ -18,7 +18,6 @@
 
 
 body {
-  background:#f29fcb;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
   direction: rtl;
@@ -33,6 +32,8 @@ header {
 
 main {
   padding: 20px;
+  height:100vh;
+  background-color: #f6c3df;
 }
 .question1 {
   margin: auto 50px;
@@ -73,7 +74,9 @@ footer {
   width: 100%;
   background-color: #550040;
   color: white;
-  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 .errortext {
   color: red;
