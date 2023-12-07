@@ -34,14 +34,14 @@ document.querySelector(".idname").innerHTML = id;
 
 //  // This is the data from the API
 const dataFromAPI = [
-  { label: "A", value: 50 },
-  { label: "B", value: 20 },
-  { label: "C", value: 30 },
-  { label: "D", value: 40 },
-  { label: "E", value: 50 },
-  { label: "F", value: 10 },
-  { label: "G", value: 30 },
-  { label: "H", value: 50 },
+  { label: "هوش ریاضی/منطقی", value: 50 },
+  { label: "هوش درون فردی", value: 20 },
+  { label: "هوش موسیقیایی", value: 30 },
+  { label: "هوش طبیعت گرا", value: 40 },
+  { label: "هوش بدنی جنبشی", value: 50 },
+  { label: "هوش تجسمی", value: 10 },
+  { label: "هوش کلامی/زبانی ", value: 30 },
+  { label: "هوش بین فردی", value: 50 },
 ];
 
 // Extract the labels and data values from the API response
@@ -72,7 +72,6 @@ var myChart = new Chart(ctx, {
     },
   },
 });
-
 
 let testmath = document.querySelector(".tsms").innerHTML;
 let testinter = document.querySelector(".tsin").innerHTML;

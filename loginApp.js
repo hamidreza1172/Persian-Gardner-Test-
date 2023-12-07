@@ -11,7 +11,7 @@ document
 
     try {
       // send request
-      var response = await fetch('Api example', {
+      var response = await fetch("Api example", {
         method: "POST",
         headers: {
           "Content-Type": "application.json",

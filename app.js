@@ -3,44 +3,44 @@ let question_id = [
     ques: "1- به کتاب و کتابخوانی علاقه دارم.",
     category: "هوش منطقی ریاضی",
     score: 0,
-    src:"./images/7.jpg"
+    src: "./images/8.jpg",
   },
   {
     ques: "2- میتوانم جمع،تفریق و یا ضرب و تقسیم را در ذهنم به راحتی حساب کنم.",
     category: "هوش فضایی",
     score: 0,
-    src:"./images/8.jpg"
+    src: "./images/9.jpg",
   },
   {
     ques:
       "3- وقتی چشمانم را می بندم می توانم تصاویر واضحی را ببینم.(قدرت تخیل و تجسم خوبی دارم).",
     category: "هوش کلامی/زبانی ",
     score: 9,
-    src:"./images/9.jpg"
+    src: "./images/10.jpg",
   },
   {
     ques: "4- من به طور منظم حداقل در یک ورزش یا فعالیت های بدنی شرکت دارم.",
     category: "هوش بدنی جنبشی",
     score: 0,
-    src:"./images/10.jpg"
+    src: "./images/11.jpg",
   },
   {
     ques: "5- پدر مادر و دوستانم با من مشورت می کنند.",
     category: "هوش بین فردی",
     score: 0,
-    src:"./images/11.jpg"
+    src: "./images/12.jpg",
   },
   {
     ques: "6- در تنهایی به موضوعاتی که برایم مهم است فکر میکنم.",
     category: "هوش فضایی",
     score: 0,
-    src:"./images/12.jpg"
+    src: "./images/13.jpg",
   },
   {
     ques: "7- من از صدای دلنشینی برای خواندن برخوردارم.",
     category: "هوش موسیقیایی ",
     score: 0,
-    src:"./images/13.jpg"
+    src: "./images/13.jpg",
   },
   {
     ques: "8- من حیوانات را دوست دارم.",
@@ -50,7 +50,7 @@ let question_id = [
   {
     ques: "9- قبل از نوشتن یا گفتن یا خواندن کلمات، آن ها را در ذهنم می شنوم.",
     category: "هوش منطقی ریاضی",
-        score: 0,
+    score: 0,
   },
   {
     ques: "10- در مدرسه از درس هایی چون ریاضیات و علوم لذّت می برم.",
@@ -91,31 +91,31 @@ let question_id = [
   {
     ques:
       "17- گوش کردن به رادیو و نوار صوتی بیشتر از تلویزیون یا فیلم به من آموزش می دهد.",
-      category: "هوش منطقی ریاضی",
-          score: 0,
+    category: "هوش منطقی ریاضی",
+    score: 0,
   },
   {
     ques:
       "18- از بازی های منطقی، معماها و سایر بازی های فکری (از قبیل شطرنج) لذّت می برم.",
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
     ques:
       "19- اغلب برای ضبط محیط اطرافم (در صورت امکان) از دوربین فیلم برداری استفاده می کنم.",
-      category: "هوش کلامی/زبانی ",
+    category: "هوش کلامی/زبانی ",
     score: 0,
   },
   {
     ques:
       "20- به کارهایی که با دست انجام می شود مانند دوختن، بافتن، نجاری، مدل سازی و حکّاکی علاقمندم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
     ques:
       "21- وقتی مشکل دارم ترجیح می دهم از کسی کمک بگیرم تا اینکه تنهایی روی آن کار کنم.",
-      category: "هوش بین فردی",
+    category: "هوش بین فردی",
     score: 0,
   },
   {
@@ -126,7 +126,7 @@ let question_id = [
   {
     ques:
       "23- اغلب به موزیک هایی از رادیو یا ضبط صوت یا سی دی و غیره گوش می دهم.",
-      category: "هوش موسیقیایی ",
+    category: "هوش موسیقیایی ",
     score: 0,
   },
   {
@@ -137,25 +137,25 @@ let question_id = [
   {
     ques:
       "25- من از بازی با کلمات مانند جدول کلمات متقاطع، جملات درهم ریخته یا اسم رمزها لذّت می برم.",
-      category: "هوش منطقی ریاضی",
+    category: "هوش منطقی ریاضی",
     score: 0,
   },
   {
     ques:
       "26- دوست دارم آزمایش هایی (اگر…آنگاه) ترتیب دهم. (مثلاً اگر به گیاهانم دوبرابر کود دهم چه اتفاقی می افتد؟)",
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
     ques:
       "27- من از معماهای دیداری مانند پازل ها و تصاویر سه بعدی لذّت می برم.",
-      category: "هوش کلامی/زبانی ",
+    category: "هوش کلامی/زبانی ",
     score: 0,
   },
   {
     ques:
       "28- بهترین افکار وقتی به سراغ من می آیند که مشغول یک فعالیت جسمی(از قبیل پیاده روی، دو، شنا و…) هستم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
@@ -177,13 +177,13 @@ let question_id = [
   {
     ques:
       "32- من کلکسیونی از قبیل سنگ ها، صدف ها، برگ ها، حشرات، تمبر، کارت های ورزشی … را جمع می کنم.",
-      category: "هوش طبیعت گرا",
+    category: "هوش طبیعت گرا",
     score: 0,
   },
   {
     ques:
       "33- من اغراق های زبانی، ایهام، آهنگ های بی معنی و کلمات دوپهلو را دوست دارم.",
-      category: "هوش منطقی ریاضی",
+    category: "هوش منطقی ریاضی",
     score: 0,
   },
   {
@@ -205,7 +205,7 @@ let question_id = [
     ques:
       "37- من از سرگرمی های جمعی مانند منچ بیشتر از سرگرمی های فردی مانند بازی های رایانه ای خوشم می آید.",
 
-      category: "هوش بین فردی",
+    category: "هوش بین فردی",
     score: 0,
   },
   {
@@ -233,7 +233,7 @@ let question_id = [
     ques:
       "42- درباره چگونگی کارکرد چیزها علاقمندم و در مورد پیشرفت های علمی و کشفیات جدید علم خود را به روز نگه می دارم.",
 
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
@@ -244,7 +244,7 @@ let question_id = [
   {
     ques:
       "44- هنگام صحبت تمایل دارم دست های خود را تکان دهم و از ژست ها و زبان بدن (مانند تغییر چهره) استفاده کنم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
@@ -268,14 +268,14 @@ let question_id = [
     ques:
       "48- تفاوت های موجود میان انواع درختان، سنگ ها، پرندگان یا سایر گیاهان و جانوران را به خوبی بیان می کنم.",
 
-      category: "هوش طبیعت گرا",
+    category: "هوش طبیعت گرا",
     score: 0,
   },
   {
     ques:
       "49- وقتی در ماشین هستم دوست دارم علائم و تابلوهای تبلیغاتی را بخوانم و به آن ها بیشتر از مناظر اطراف توجه کنم.",
 
-      category: "هوش منطقی ریاضی",
+    category: "هوش منطقی ریاضی",
     score: 0,
   },
   {
@@ -292,13 +292,13 @@ let question_id = [
   {
     ques:
       "52- من نیاز دارم چیزها را لمس کرده یا نگه دارم تا بتوانم بیشتر درباره آن ها یاد بگیرم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
     ques:
       "53- فکر می کنم قدرت رهبری خوبی دارم و اطرافیان و دوستانم نیز این موضوع را قبول دارند.",
-      category: "هوش بین فردی",
+    category: "هوش بین فردی",
     score: 0,
   },
   {
@@ -311,7 +311,7 @@ let question_id = [
   {
     ques:
       "55- با استفاده از یک ابزار موسیقی ساده به راحتی می توانم اوقات فراغت خود را سپری کنم.",
-      category: "هوش موسیقیایی ",
+    category: "هوش موسیقیایی ",
     score: 0,
   },
   {
@@ -324,14 +324,14 @@ let question_id = [
     ques:
       "57- اغلب در مکالماتم به چیزهایی اشاره می کنم که قبلاً خوانده یا شنیده ام.",
 
-      category: "هوش منطقی ریاضی",
+    category: "هوش منطقی ریاضی",
     score: 0,
   },
   {
     ques:
       "58- من می توانم به صورت واضح به مفاهیم غیرملموس، انتزاعی و خیالی فکر کنم.",
 
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
@@ -342,7 +342,7 @@ let question_id = [
   {
     ques:
       "60- من از بازی های پرهیجان (از قبیل پینت بال و رانندگی پرهیجان) لذّت می برم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
@@ -363,7 +363,7 @@ let question_id = [
   {
     ques:
       "64- از مشاهده رویدادهای طبیعی( مانند ستاره ها، ماه، جزر و مد) لذّت برده و دوست دارم جزئیات اطّلاعات درباره ی آن ها را به دست آورم.",
-      category: "هوش طبیعت گرا",
+    category: "هوش طبیعت گرا",
     score: 0,
   },
   {
@@ -374,13 +374,13 @@ let question_id = [
   {
     ques:
       "66- به کشف عیوب منطقی کارهایی که مردم در خانه و محل کار خود انجام می دهند یا در مورد آن ها صحبت می کنند، علاقه دارم.",
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
     ques:
       "67- می توانم تصور کنم (از نگاه یک پرنده)، اجسام از بالا چگونه به نظر می رسند.",
-      category: "هوش کلامی/زبانی ",
+    category: "هوش کلامی/زبانی ",
     score: 0,
   },
   {
@@ -391,7 +391,7 @@ let question_id = [
   {
     ques:
       "69- من در فعالیت های مدرسه ، مسجد، همسایگان و فعالیت های اجتماعی شرکت می کنم.",
-      category: "هوش بین فردی",
+    category: "هوش بین فردی",
     score: 0,
   },
   {
@@ -403,7 +403,7 @@ let question_id = [
   {
     ques:
       "71- اگر یک قطعه موزیک را یک یا دوبار بشنوم می توانم به آسانی آن را تکرار کنم.",
-      category: "هوش موسیقیایی ",
+    category: "هوش موسیقیایی ",
     score: 0,
   },
   {
@@ -420,25 +420,25 @@ let question_id = [
   {
     ques:
       "74- وقتی چیزی به روش خاصی اندازه گیری، طبقه بندی، تجزیه یا کمیت گذاری می شود احساس خوبی دارم.",
-      category: "هوش فضایی",
+    category: "هوش فضایی",
     score: 0,
   },
   {
     ques:
       "75- من ترجیح می دهم کتاب، مجلاّت و روزنامه هایی را بخوانم که تصاویر زیادی دارند.",
-      category: "هوش کلامی/زبانی ",
+    category: "هوش کلامی/زبانی ",
     score: 0,
   },
   {
     ques:
       "76- برای یادگیری مهارت های جدید نیاز دارم تا تمرین انجام دهم، به جای ینکه درباره آن بخوانم یا فیلمی را تماشا کنم.",
-      category: "هوش بدنی جنبشی",
+    category: "هوش بدنی جنبشی",
     score: 0,
   },
   {
     ques:
       "77- من ترجیح می دهم شب تعطیل را در یک میهمانی بگذرانم تا تنها در خانه بمانم.",
-      category: "هوش بین فردی",
+    category: "هوش بین فردی",
     score: 0,
   },
   {
@@ -449,13 +449,13 @@ let question_id = [
   {
     ques:
       "79- اغلب هنگام کار کردن آواز می خوانم یا زمزمه می کنم یا ضربه می زنم.",
-      category: "هوش موسیقیایی ",
+    category: "هوش موسیقیایی ",
     score: 0,
   },
   {
     ques:
       "80- در تعطیلات خود ترجیح می دهم به مکان های طبیعی مانند پارک یا جنگل بروم تا به یک هتل مجلّل و پر رفت و آمد.",
-      category: "هوش طبیعت گرا",
+    category: "هوش طبیعت گرا",
     score: 0,
   },
 ];
@@ -466,19 +466,26 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
     if (i < question_id.length) {
+      //تغییر عکس با تغییر سوال
+
+      question_id.map((question) => {
+        if (question.ques === question_id[i].ques) {
+          document.querySelector(".img-test-1").src = question.src;
+        }
+      });
+
       //لیست جوابهای موجود
       let option_text_array = [
-        "به هیچ وجه شبیه من نیست",
-        " اندکی شبیه من است",
-        "در حد متوسط شبیه من است",
-        "تا حد زیادی شبیه من است",
-        "کاملا شبیه من است",
+        "به هیچ وجه,اصلا",
+        "خیلی کم ,تاحدودی",
+        "در حد متوسط , گاهی اوقات",
+        "تقریبا زیاد ",
+        "خیلی زیاد ",
       ];
       var questions = document.querySelectorAll(".question");
 
       questions.forEach((question) => {
         if (question.checked) {
-          
           //اضافه کردن امنتیازات به متغیر score در هر سوال
           if (question.value === option_text_array[0]) {
             question_id[i].score = 1;
@@ -505,7 +512,7 @@ document
       document.querySelector("#examForm").removeChild(question1);
       const parentshowresult = document.createElement("div");
       parentshowresult.classList.add("parentshow");
-      const showresult = document.createElement('a');
+      const showresult = document.createElement("a");
       showresult.innerHTML = "مشاهده ی پاسخ آزمون ";
       showresult.classList.add("showresult");
 
@@ -519,60 +526,60 @@ document
         .filter((obj) => obj.category === " هوش درون فردی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("درون فرد=",Intrapersonal)
+      console.log("درون فرد=", Intrapersonal);
       //  محاسبه ی هوش ریاضی منطقی
       let matth = question_id
         .filter((obj) => obj.category === "هوش منطقی ریاضی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("ریاضی=",matth)
+      console.log("ریاضی=", matth);
       //محاسبه ی "هوش موسیقیایی
       let musical = question_id
         .filter((obj) => obj.category === "هوش موسیقیایی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("موسیقیایی=",musical)
+      console.log("موسیقیایی=", musical);
       //محاسبه ی هوش طبیعت گرا
       let naturalist = question_id
         .filter((obj) => obj.category === "هوش طبیعت گرا")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("طبیعت=",naturalist)
+      console.log("طبیعت=", naturalist);
       //محاسبه ی هوش بدنی جنبشی
       let physical = question_id
         .filter((obj) => obj.category === "هوش بدنی جنبشی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("جنبشی=",physical)
+      console.log("جنبشی=", physical);
       //محاسبه ی هوش تجسمی
       let visual = question_id
         .filter((obj) => obj.category === "هوش تجسمی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("تجسمی=",visual)
+      console.log("تجسمی=", visual);
       //محاسبه ی هوش کلامی/زبانی
       let verbal = question_id
         .filter((obj) => obj.category === "هوش کلامی/زبانی ")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-        console.log("زبانی=",verbal)
+      console.log("زبانی=", verbal);
       //محاسبه ی هوش بین فردی
       let Interpersonal = question_id
         .filter((obj) => obj.category === "هوش بین فردی")
         .map((obj) => obj.score)
         .reduce((a, b) => a + b, 0);
-console.log("بین فرد=",Interpersonal)
+      console.log("بین فرد=", Interpersonal);
       //ثبت نتیج محاسبات هوشها در دیتابیس
       const url = "َApi for send ";
       const data = {
-        key1: Intrapersonal,//درون فردی 
-        key2: matth,//ریاضی
-        key3: musical,//موسیقیایی
-        key4: naturalist,//طبیعتگرا
-        key5: physical,//جنبشی
-        key6: visual,//تجسمی
-        key7: verbal,//زبانی
-        key8: Interpersonal,//بین فردی
+        key1: Intrapersonal, //درون فردی
+        key2: matth, //ریاضی
+        key3: musical, //موسیقیایی
+        key4: naturalist, //طبیعتگرا
+        key5: physical, //جنبشی
+        key6: visual, //تجسمی
+        key7: verbal, //زبانی
+        key8: Interpersonal, //بین فردی
       };
 
       fetch(url, {
@@ -587,8 +594,3 @@ console.log("بین فرد=",Interpersonal)
         .catch((error) => console.error("Error:", error));
     }
   });
-
-
-
-
-  

@@ -98,6 +98,9 @@ footer {
 }
 
 .img-test-1{
+  max-height:400px;
+
+  transition:all 0.5s ease-in-out;
   width:35%;
  object-fit:cover;
  animation: flip-scale-up-hor 0.5s linear both;
